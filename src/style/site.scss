@@ -7,3 +7,20 @@
    bottom: 10px;
    overflow: scroll;
 }
+
+
+*,
+*:focus,
+*:hover {
+   outline: none;
+}
+
+#drag-icon {
+   position: absolute;
+   left: 100px;
+   top: 100px;
+   width: auto;
+   height: auto;
+   z-index: 2;
+}
+

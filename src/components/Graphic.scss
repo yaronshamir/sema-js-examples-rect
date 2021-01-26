@@ -1,0 +1,9 @@
+.graphic {
+   position: absolute;
+   z-index: 10000;
+
+   &:hover {
+      cursor: pointer;
+    
+   }
+}
