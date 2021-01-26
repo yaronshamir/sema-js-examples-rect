@@ -1,0 +1,33 @@
+
+.fancy-scrollbar {
+   -webkit-overflow-scrolling: touch;
+}
+/* Custom WebKit Fancy Scrollbar Styles*/
+.fancy-scrollbar::-webkit-scrollbar {
+   width: 10px;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-button:start:decrement,
+.fancy-scrollbar::-webkit-scrollbar-button:end:increment {
+   background: transparent;
+   display: none;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-track-piece {
+   background: #d0d0d0;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-thumb:vertical, tbody::-webkit-scrollbar-thumb:horizontal {
+   background: #999;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   display: block;
+   height: 12px;
+   max-height: 12px;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-button {
+   display: none;
+   height: 4px;
+   width: 2px;
+}

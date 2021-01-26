@@ -1,0 +1,47 @@
+{
+  "name": "sema-js-example-rect",
+  "version": "1.0.0",
+  "description": "Sema js binding example for drag and resize",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node  -e require('sema-js-build').compile() && webpack --mode development && node  -e require('sema-js-build').version()",
+    "prod": "node build/build.js && webpack --mode production && node  build/version",
+    "test": "node build/build.js && webpack --mode development  && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaronshamir/SemaJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaronshamir/SemaJs/issues"
+  },
+  "homepage": "https://github.com/yaronshamir/SemaJs#readme",
+  "dependencies": {
+    "app-root-path": "3.0.0",
+    "compile-sass": "^1.1.1",
+    "css-loader": "^3.6.0",
+    "eventemitter3": "^2.0.3",
+    "fs": "0.0.1-security",
+    "js-string-compression": "^1.0.1",
+    "jsdom": "^16.4.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-cache": "^5.1.2",
+    "node-xml": "^1.0.2",
+    "sass-loader": "^9.0.1",
+    "sema-js-build": "1.0.4",
+    "sema-js-core": "1.0.6",
+    "webpack": "4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.5.3",
+    "raw-loader": "^4.0.2",
+    "sass": "1.32.4",
+    "webpack-cli": "^4.3.1"
+  }
+}
